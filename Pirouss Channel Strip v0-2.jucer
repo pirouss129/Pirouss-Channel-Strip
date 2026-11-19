@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="kyBicj" name="Pirouss Channel Strip V0-2" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              version="0.2" pluginManufacturer="Pirouss" pluginManufacturerCode="Piro"
+              pluginCode="Pcs2" pluginVST3Category="Dynamics|EQ">
+  <MAINGROUP id="sWPsLB" name="Pirouss Channel Strip V0-2">
+    <GROUP id="{91DE024B-DDD7-E07E-689F-F5168F69F7F1}" name="Source">
+      <GROUP id="{003E6529-1C0D-772A-CD5F-CE79A05D0461}" name="DSP">
+        <FILE id="S3xcSY" name="ClipperLimiter.h" compile="0" resource="0"
+              file="Source/DSP/ClipperLimiter.h"/>
+        <FILE id="FsI7AV" name="Compressor.h" compile="0" resource="0" file="Source/DSP/Compressor.h"/>
+        <FILE id="qQvHsP" name="DeEsser.h" compile="0" resource="0" file="Source/DSP/DeEsser.h"/>
+        <FILE id="rvoi7x" name="Equalizer.h" compile="0" resource="0" file="Source/DSP/Equalizer.h"/>
+        <FILE id="grAOeG" name="Expander.h" compile="0" resource="0" file="Source/DSP/Expander.h"/>
+        <FILE id="zppoDc" name="Gain.h" compile="0" resource="0" file="Source/DSP/Gain.h"/>
+        <FILE id="UrXAZ3" name="GirardinColor.h" compile="0" resource="0" file="Source/DSP/GirardinColor.h"/>
+        <FILE id="o6Kwvm" name="GirardinColorV2.h" compile="0" resource="0"
+              file="Source/DSP/GirardinColorV2.h"/>
+        <FILE id="Udva7c" name="HighPassFilter.h" compile="0" resource="0"
+              file="Source/DSP/HighPassFilter.h"/>
+        <FILE id="a5s7Fy" name="LowPassFilter.h" compile="0" resource="0" file="Source/DSP/LowPassFilter.h"/>
+        <FILE id="bWjQNN" name="PhaseInverter.h" compile="0" resource="0" file="Source/DSP/PhaseInverter.h"/>
+        <FILE id="JiPorP" name="PPMDsp.cpp" compile="1" resource="0" file="Source/DSP/PPMDsp.cpp"/>
+        <FILE id="Ull7yI" name="PPMDsp.h" compile="0" resource="0" file="Source/DSP/PPMDsp.h"/>
+      </GROUP>
+      <GROUP id="{2CC71EB8-D377-DCC2-152D-B830521CEA5C}" name="UI">
+        <GROUP id="{CC995798-14D0-0008-C1F4-CC6919734344}" name="Bargraph">
+          <FILE id="u6uWVu" name="GRMeter.h" compile="0" resource="0" file="Source/UI/Bargraph/GRMeter.h"/>
+          <FILE id="iaHNgF" name="MiniMeter.h" compile="0" resource="0" file="Source/UI/Bargraph/MiniMeter.h"/>
+        </GROUP>
+        <GROUP id="{0FCB6D4C-294E-288E-8834-1E8F22711798}" name="Buttons">
+          <FILE id="bYOIxs" name="HorinzontalSlider.cpp" compile="1" resource="0"
+                file="Source/UI/Buttons/HorinzontalSlider.cpp"/>
+          <FILE id="FLtJlW" name="HorinzontalSlider.h" compile="0" resource="0"
+                file="Source/UI/Buttons/HorinzontalSlider.h"/>
+          <FILE id="nPo2dO" name="ModernButton.cpp" compile="1" resource="0"
+                file="Source/UI/Buttons/ModernButton.cpp"/>
+          <FILE id="HU4l2I" name="ModernButton.h" compile="0" resource="0" file="Source/UI/Buttons/ModernButton.h"/>
+          <FILE id="SPdHnw" name="PiroussRoundSwitch.cpp" compile="1" resource="0"
+                file="Source/UI/Buttons/PiroussRoundSwitch.cpp"/>
+          <FILE id="Fxjcnc" name="PiroussRoundSwitch.h" compile="0" resource="0"
+                file="Source/UI/Buttons/PiroussRoundSwitch.h"/>
+          <FILE id="HUFBss" name="PiroussSwitch.cpp" compile="1" resource="0"
+                file="Source/UI/Buttons/PiroussSwitch.cpp"/>
+          <FILE id="Yc0rDD" name="PiroussSwitch.h" compile="0" resource="0" file="Source/UI/Buttons/PiroussSwitch.h"/>
+          <FILE id="QZfGyZ" name="RotativCrantedSlider.h" compile="0" resource="0"
+                file="Source/UI/Buttons/RotativCrantedSlider.h"/>
+          <FILE id="LCncXk" name="RotativSlider.cpp" compile="1" resource="0"
+                file="Source/UI/Buttons/RotativSlider.cpp"/>
+          <FILE id="w5e3py" name="RotativSlider.h" compile="0" resource="0" file="Source/UI/Buttons/RotativSlider.h"/>
+        </GROUP>
+        <GROUP id="{BC12E92A-860B-69F5-C905-8DEC9261DCC5}" name="header">
+          <FILE id="Dd9VoX" name="PiroussHeader.cpp" compile="1" resource="0"
+                file="Source/UI/header/PiroussHeader.cpp"/>
+          <FILE id="vbdMkH" name="PiroussHeader.h" compile="0" resource="0" file="Source/UI/header/PiroussHeader.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="pSPN7a" name="juce_logo.png" compile="0" resource="1" file="Source/juce_logo.png"/>
+      <FILE id="wsmLrr" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="K7xWUr" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="hZieLi" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ZPxPpe" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Pirouss Channel Strip v0-2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Pirouss Channel Strip v0-2"
+                       useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
